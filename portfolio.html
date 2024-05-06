@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+        <title>Home</title>
+    </head>
+<body style="background-color:#192841;">
+
+
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+
+
+
+
+<div id="top">
+<nav><a href="portfolio.html" > Home</a></nav>
+<nav><a href="education.html" > Education</a></nav>
+<nav><a href="resume.html" > Work Experience </a></nav>
+<nav><a href="contact.html" > Contact Me</a></nav>
+</div>
+<h1 id="header"> Home </h1>
+
+
+<div class="grid-container">
+        <div class="grid-item">
+            <div class="picture-background">
+            <img src="picture.JPG" alt="Photo" width="200px" height="250px"></img>
+            </div>
+        </div>
+
+
+        <div class="grid-item">
+
+            <div class="grid-container2">
+
+                    <div class="grid-item2">
+                        <h4> Hi, I&#39m </h4>
+                        <h2 id="name"> Jaylen Sinclair</h2>
+                    </div>
+
+                    <div class="grid-item2">
+                          I&#39m a junior at the University of Missouri - Kansas City, majoring in Computer Science. My journey in technology began with a keen interest in backend engineering, where I've honed my skills in languages like C++ and Python. Additionally, I've delved into the world of web development, gaining proficiency in HTML, CSS, and Javascript.
+                    </div>
+
+                    <div class="grid-item2">
+                            Driven by a passion for problem-solving, I enjoy crafting innovative solutions and am always eager to explore new technologies and areas within computer science. Originally from St. Louis, Missouri, I bring a unique perspective to my studies and endeavors.
+                            
+                            Outside of academics, you'll often find me on the soccer field, indulging in my hobby of sneaker collecting, exploring my love for cars, or immersing myself in video games.
+                    </div>
+
+                    <div class="grid-item2">
+                            As I continue my undergraduate journey, I am actively seeking internships and learning opportunities in software engineering and AI research. I am excited to apply my skills and enthusiasm to real-world projects and contribute to the ever-evolving field of technology.
+                    
+                            <br> <br>
+                            Thank you for visiting my website!
+                        
+                    </div>
+                    <p>aabsdajfbadsjkfbdskajfb;ds;jkfbsdfbdskjfbdskjfbdsjfbdskjfbsd'lkf<br>
+                        <br><br><br><br><br><br><br><br><br><br>
+                        bsdajfbadsjkfbdskajfb;ds;jkfbsdfbdskjfbdskjfbdsjfbdskjfbsd'lkf</p>
+            </div>
+    </div>
+
+
+
+
+</div>
+
+<h1> Contact Me </h1>
+<h4> Email address: jps36r@umsystem.edu </h4>
+<h4>Phone Number: 314-983-8688</h4>
+
+
+
+<script type="text/javascript">
+    let progress = document.getElementById('progressBar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function(){
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+#top {
+    padding-left: 40;
+    padding-right: 40;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    text-align: right;
+}
+
+nav {
+    display: inline;
+    padding: 10px;
+
+}
+
+a {
+    color: aliceblue;
+    font-family:monospace
+}
+
+p,h4,h3,h1 {
+    color: white;
+}
+
+#work {
+    background-color: #d4d4e7;
+    border-radius: 5px;
+    padding-bottom: 7px;
+    display: inline-block;
+    padding-right: 7px;
+    padding-top: 8px;
+    
+}
+
+.header {
+    color: white;
+    padding-left: 9px;
+}
+
+#educationPage {
+    background-color: #2da3ef;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#name {
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+div.picture-background {
+    background-color: white;
+    padding: 12px;
+    display: inline-block;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1px;
+  }
+
+
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .grid-item2 {
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 175px;
+    width: 35%;
+  }
+
+  .grid-item3 {
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+
+
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1px;
+  }
+
+  .grid-item4 {
+    padding: 5px;
+    color: white;
+  }
+
+
+
+div.resume {
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+    padding: 9px;
+    display: inline-block;
+    
+}
+
+
+.classList {
+    color: white;
+}
+
+
+#projects {
+    border-radius: 5px;
+    padding-bottom: 7px;
+    display: inline-block;
+    padding-right: 7px;
+    padding-top: 8px;
+    color: white;
+}

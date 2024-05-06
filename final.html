@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+        <title>Home</title>
+    </head>
+<body style="background-color:#192841;">
+
+
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+
+<div class="grid-container">
+        <div class="grid-item">
+            <div class="picture-background">
+            <img src="picture.JPG" alt="Photo" width="200px" height="250px"></img>
+            </div>
+        </div>
+
+
+        <div class="grid-item">
+
+            <div class="grid-container2">
+
+                    <div class="grid-item2">
+                        <h4> Hi, I&#39m </h4>
+                        <h2 id="name"> Jaylen Sinclair</h2>
+                    </div>
+
+                    <div class="grid-item2">
+                          I&#39m a junior at the University of Missouri - Kansas City, majoring in Computer Science. My journey in technology began with a keen interest in backend engineering, where I've honed my skills in languages like C++ and Python. Additionally, I've delved into the world of web development, gaining proficiency in HTML, CSS, and Javascript.
+                    </div>
+
+                    <div class="grid-item2">
+                            Driven by a passion for problem-solving, I enjoy crafting innovative solutions and am always eager to explore new technologies and areas within computer science. Originally from St. Louis, Missouri, I bring a unique perspective to my studies and endeavors.
+                            
+                            Outside of academics, you'll often find me on the soccer field, indulging in my hobby of sneaker collecting, exploring my love for cars, or immersing myself in video games.
+                    </div>
+
+                    <div class="grid-item2">
+                            As I continue my undergraduate journey, I am actively seeking internships and learning opportunities in software engineering and AI research. I am excited to apply my skills and enthusiasm to real-world projects and contribute to the ever-evolving field of technology.
+                    
+                            <br> <br>
+                            Thank you for visiting my website!
+                        
+                    </div>
+                    
+            </div>
+    </div>
+</div>
+
+    <br> <br> <br> 
+<a id="#EdPageLink"></a>
+<div id="educationPage">
+    <h1 class="header"> Educational Background </h1>
+
+<h3>Academic Courses<br>
+Cumuluative GPA: 3.95
+</h3>
+
+        <div class="grid-container4">
+            <div class="grid-item4">
+            <ul>
+                <li class="classList">CS 303 - Data Structures</li>
+                <li class="classList">CS 490WD - Web Development</li>
+                <li class="classList">CS 201 - C++ Programming</li>
+                <li class="classList">CS 101 - Python Programming</li>
+                <li class="classList">EN 225 - Composition II</li>
+                <li class="classList">Stat 235 - Elementary Statistics</li>
+                <li class="classList">CS 281R - Intro to Computer Architecture</li>
+                <li class="classList">CS 291 - Discrete Structures II</li>
+                <li class="classList">MT 220 - Calculus II</li>
+                <li class="classList">DSOM 211 - Business Analytics</li> 
+            </ul>
+            I am headed into my senior year at UMKC! Next semester, I will be taking Intro to AI, Data Communications, 
+                    Algorithms and Complexity, and Linear Algebra. 
+            </div>
+            <div class="grid-item4">
+            <img id="umkc" src="https://upload.wikimedia.org/wikipedia/en/7/75/Kansas_City_Roos_logo.svg" alt="Python logo" width="200px" height="200px">
+            </div>
+        </div>
+        
+</div>
+
+<h3> Programming Languages/Skills </h3>
+<div class="grid-container3">
+    <div class="grid-item3">
+        <img src="python.svg" alt="Python logo" width="175px" height="140px">
+    </div>
+    <div class="grid-item3">
+        <img src="cpp.svg" alt="C++ logo" width="175px" height="140px">
+    </div>
+    <div class="grid-item3">
+    <img src="html.svg" alt="HTML logo" width="175px" height="140px">
+    </div>
+    <div class="grid-item3">
+    <img src="css.svg" alt="CSS logo" width="175px" height="140px">
+    </div>
+    <li>Javascript</li>
+</ul>
+
+</div>
+
+<h3> Projects </h3>
+<ul id="projects">
+    Enterprise Rent-A-Car Employee Program
+    <li>Developed a vehicle rental management system using C++</li>
+    <li>Designed functionalities for reading vehicle and reservation data from external files and
+        processing them.
+    </li>
+    <li>
+        Utilized data structures like queues to manage rental reservations, rented vehicles, and
+        inventory
+    </li>
+    <li>
+        Created functions for generating end-of-day reports summarizing rented vehicles and
+        customer details
+    </li>
+    <li> <a href="https://github.com/jsinclair1/EnterpriseRental"> Check it out!</a> </li>
+</ul>
+
+
+
+<a id="#WorkPageLink"></a>
+<h1 id="header"> Work Experience </h1>
+    
+
+<ul id="Work">Enterprise Rent-A-Car <br>
+    Automotive Detailer<br>
+    July 2023-Present
+    <li>Contributed to the highest Service Quality Index (SQI) score over three-month span at
+        any branch in the Kansas City Metropolitan Area</li>
+    <li>Maintained customer relations through prioritization of customer service and vehicle
+        cleanliness and safety</li>
+    <li>Helped build reputation of small team tasked with opening new branch</li>
+    <br><br>
+
+Rockhurst University<br>
+Helpdesk Assistant <br>
+August 2022-May 2023
+<li>Provided technical support to faculty and students via telephone, email, in-person</li>
+<li>Followed documentation on solutions to common network, portal, and software
+    incidents</li>
+<li>Assisted advisors in network maintenance, A/V setup, hardware installation</li>
+
+ </ul>
+ <br>
+ <div class="resume">
+    <a class="one" href="Jaylen-Sinclair-Resume2.pdf" target="_blank"> Click here for my resume (PDF)</a>
+</div>
+
+
+<h1> Contact Me </h1>
+<h4> Email address: jps36r@umsystem.edu </h4>
+<h4>Phone Number: 314-983-8688</h4>
+
+<script type="text/javascript">
+    let progress = document.getElementById('progressBar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function(){
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+    }
+</script>
+
+</body>
+</html>
